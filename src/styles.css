@@ -1,19 +1,75 @@
 .App {
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
+
 .selectBox {
-  background: grey;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
   color: white;
-  padding: 10px;
-  font-weight: bold;
+  padding: 14px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+  min-width: 250px;
+  outline: none;
 }
+
+.selectBox:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.selectBox:focus {
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.4);
+}
+
 .optionsMenu {
-  background: lightcoral;
-  padding: 10px;
-  font-weight: bold;
+  background: white;
+  color: #333;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 15px;
 }
+
 .textToChange {
-  color: blueviolet;
-  font-weight: bold;
+  color: #2d3748;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.8;
+  background: white;
+  padding: 16px 28px;
+  margin: 12px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  transition: all 0.3s ease;
+}
+
+.textToChange:hover {
+  transform: translateX(4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.textToChange:first-of-type {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff6b6b;
+  background: linear-gradient(135deg, #fff 0%, #f7fafc 100%);
+  border-left: 4px solid #ff6b6b;
+}
+
+.textToChange:nth-of-type(2) {
+  font-weight: 600;
+  color: #ff8e53;
 }

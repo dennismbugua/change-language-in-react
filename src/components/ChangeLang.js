@@ -25,18 +25,24 @@ export default class ChangeLang extends React.Component {
           <option className="optionsMenu" value="en">
             English
           </option>
-          <option className="optionsMenu" value="tm">
-            Tamil(தமிழ்)
+          <option className="optionsMenu" value="de">
+            German (Deutsch)
           </option>
-          <option className="optionsMenu" value="tl">
-            Telugu(తెలుగు)
+          <option className="optionsMenu" value="es">
+            Spanish (Español)
           </option>
-          <option className="optionsMenu" value="sp">
-            Spanish(española)
+          <option className="optionsMenu" value="it">
+            Italian (Italiano)
+          </option>
+          <option className="optionsMenu" value="zh">
+            Chinese (中文)
           </option>
         </select>
         <p className="textToChange">{t("Hi")}</p>
         <p className="textToChange">{t("Actions")}</p>
+        <p className="textToChange">{t("Welcome")}</p>
+        <p className="textToChange">{t("Description")}</p>
+        <p className="textToChange">{t("SelectLanguage")}</p>
       </div>
     );
   }

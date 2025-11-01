@@ -7,25 +7,46 @@ i18n.use(initReactI18next).init({
     en: {
       translation: {
         Hi: "Hi",
-        Actions: "Actions"
+        Actions: "Actions",
+        Welcome: "Welcome to our multilingual application",
+        Description: "This is a demonstration of language switching capabilities",
+        SelectLanguage: "Please select your preferred language from the dropdown above"
       }
     },
-    tm: {
+    de: {
       translation: {
-        Hi: "வணக்கம்",
-        Actions: "செயல்கள்"
+        Hi: "Hallo",
+        Actions: "Aktionen",
+        Welcome: "Willkommen in unserer mehrsprachigen Anwendung",
+        Description: "Dies ist eine Demonstration der Sprachwechselfunktionen",
+        SelectLanguage: "Bitte wählen Sie Ihre bevorzugte Sprache aus dem Dropdown-Menü oben aus"
       }
     },
-    sp: {
+    es: {
       translation: {
         Hi: "Hola",
-        Actions: "Comportamiento"
+        Actions: "Acciones",
+        Welcome: "Bienvenido a nuestra aplicación multilingüe",
+        Description: "Esta es una demostración de las capacidades de cambio de idioma",
+        SelectLanguage: "Por favor seleccione su idioma preferido del menú desplegable de arriba"
       }
     },
-    tl: {
+    it: {
       translation: {
-        Hi: "హాయ్",
-        Actions: "చర్యలు"
+        Hi: "Ciao",
+        Actions: "Azioni",
+        Welcome: "Benvenuto nella nostra applicazione multilingue",
+        Description: "Questa è una dimostrazione delle capacità di cambio lingua",
+        SelectLanguage: "Si prega di selezionare la lingua preferita dal menu a discesa sopra"
+      }
+    },
+    zh: {
+      translation: {
+        Hi: "你好",
+        Actions: "操作",
+        Welcome: "欢迎使用我们的多语言应用程序",
+        Description: "这是语言切换功能的演示",
+        SelectLanguage: "请从上面的下拉菜单中选择您的首选语言"
       }
     }
   },
